@@ -11,4 +11,3 @@ tabString[0];
 function mafunct(arg:string): number {
     return arg.length;
 }
-
