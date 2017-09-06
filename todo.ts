@@ -1,14 +1,17 @@
-export class todo{
-    private list:string[] = [];
 
-    add(item:string):void{
-        this.list.push(item);
+export class Todo {
+    private liste:string[] = [];
+    
+    ajouter(item:string):void {
+        this.liste.push(item);
     }
-    del(item:string):void{
-        this.list = 
-        this.list.filter((valeur) => valeur !== item);
+
+    supprimer(item:string):void {
+        this.liste = 
+        this.liste.filter((valeur) => valeur !== item);
     }
-    lister():string[]{
-        return this.list;
+
+    lister():string[] {
+        return this.liste;
     }
 }
